@@ -1,4 +1,4 @@
-package com.lagame.soundpick.src
+package com.lagame.soundpick.src.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -3,4 +3,5 @@
     <dimen name="base_start_margin">28dp</dimen>
     <dimen name="base_end_margin">28dp</dimen>
     <dimen name="base_button_height">41dp</dimen>
+    <dimen name="pick_side_margin">15dp</dimen>
 </resources>

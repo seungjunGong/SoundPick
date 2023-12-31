@@ -8,4 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="base_button_color">#642CDA</color>
+    <color name="base_small_tv_color">#C037A2</color>
+    <color name="switch_white">#FFFCFC</color>
+    <color name="switch_line">#80FFFCFC</color>
+    <color name="pick_switch_track">#f60379</color>
 </resources>
