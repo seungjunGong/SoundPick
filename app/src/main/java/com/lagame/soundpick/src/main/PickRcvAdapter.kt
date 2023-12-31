@@ -22,6 +22,17 @@ class PickRcvAdapter(private val itemsData: ArrayList<PickItemsData>): RecyclerV
     inner class ViewHolder(private val binding:  RcvPicksItemBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(data: PickItemsData){
             // 아이템 레이아웃에서 정한 값들을 데이터클래스 값으로 넣어줌
+            binding.rcvPicksTvTime.text = data.time
+            binding.rcvPicksTvDate.text = data.date
+            binding.rcvPicksSwitch.isChecked = data.state
+
+            binding.rcvPicksSwitch.setOnCheckedChangeListener { _, isChecked ->
+                if (isChecked) {
+                    // The switch is checked.
+                } else {
+                    // The switch isn't checked.
+                }
+            }
         }
     }
 

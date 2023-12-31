@@ -32,6 +32,7 @@
 
 
     <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/rcv_picks_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
