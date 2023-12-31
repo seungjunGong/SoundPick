@@ -43,17 +43,21 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_rcv_picks"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        android:clipToPadding="false"
-        android:layout_marginTop="10dp"
-        android:paddingBottom="100dp"
+        tools:listitem="@layout/rcv_picks_item"
+        android:layout_marginStart="@dimen/base_start_margin"
+        android:layout_marginEnd="@dimen/base_end_margin"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toBottomOf="@id/main_tv_description"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/main_btn_add_pick"
         app:layout_constraintEnd_toEndOf="parent"/>
 
    <Button
+        android:id="@+id/main_btn_add_pick"
         android:layout_width="match_parent"
         android:layout_height="@dimen/base_button_height"
         app:layout_constraintBottom_toTopOf="@id/main_tv_words"
