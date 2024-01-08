@@ -11,10 +11,24 @@
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/pick_switch_tumb.xml" value="0.325" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/radius.xml" value="0.256" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/rcv_picks_item_style.xml" value="0.3545" />
-        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_left_toggle_background.xml" value="0.325" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_radio_btn_background.xml" value="0.325" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_radio_btn_background_selector.xml" value="0.285" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_radio_btn_checked_background.xml" value="0.325" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_radio_btn_style.xml" value="0.325" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_radio_style.xml" value="0.325" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_right_toggle_background.xml" value="0.325" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_seek_bar_progress_style.xml" value="0.258" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_seek_bar_thumb.xml" value="0.257" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_setting_box.xml" value="0.257" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_toggle_background.xml" value="0.285" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_toggle_btn_select.xml" value="0.325" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/activity_update.xml" value="0.5" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/rcv_picks_item.xml" value="0.6666666666666666" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.325" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.325" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/values-night/base_button_style.xml" value="0.325" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/projects/SoundPick/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/projects/SoundPick/app/src/main/res/layout/dialog_loading.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/projects/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1085" />
@@ -27,5 +41,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>

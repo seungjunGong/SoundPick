@@ -34,11 +34,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="made by lagame"
-        android:textColor="#A57FF6"
+        android:textColor="@color/main_end_tv_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="57dp"/>
+        android:layout_marginBottom="30dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_rcv_picks"
@@ -49,7 +49,7 @@
         android:layout_marginStart="@dimen/base_start_margin"
         android:layout_marginEnd="@dimen/base_end_margin"
         android:layout_marginTop="30dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="50dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toBottomOf="@id/main_tv_description"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +63,8 @@
         app:layout_constraintBottom_toTopOf="@id/main_tv_words"
         android:layout_marginBottom="13dp"
         android:text="PICK 추가"
-        android:textSize="14sp"
+       android:textColor="@color/white"
+        android:textSize="@dimen/base_button_size"
         android:background="@drawable/base_button_style"
         android:layout_marginStart="@dimen/base_start_margin"
         android:layout_marginEnd="@dimen/base_end_margin"

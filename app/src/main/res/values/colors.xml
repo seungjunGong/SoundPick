@@ -12,4 +12,12 @@
     <color name="switch_white">#FFFCFC</color>
     <color name="switch_line">#80FFFCFC</color>
     <color name="pick_switch_track">#f60379</color>
+    <color name="update_setting_box_color">#0B0711</color>
+    <color name="update_setting_box_line_color">#642CDC</color>
+    <color name="main_end_tv_color">#A57FF6</color>
+    <color name="div_line_color">#80FFFCFC</color>
+    <color name="base_dim_tv_color">#80FFFFFF</color>
+    <color name="update_radio_btn_color">#F442B5</color>
+    <color name="seek_bar_color">#33FFFFFF</color>
+    <color name="base_seek_bar_color">#e54d97</color>
 </resources>
