@@ -6,14 +6,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/rcv_picks_item_style">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/delete_radio_all_btn"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:visibility="gone"
+        android:background="@drawable/delete_radio_btn_selecter"
+        android:layout_marginStart="@dimen/pick_side_margin"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/rcv_picks_tv_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginStart="@dimen/pick_side_margin">
+        app:layout_constraintTop_toTopOf="@id/delete_radio_all_btn"
+        app:layout_constraintBottom_toBottomOf="@id/delete_radio_all_btn"
+        app:layout_constraintStart_toEndOf="@id/delete_radio_all_btn"
+        android:layout_marginStart="20dp"
+         >
         <TextView
             android:id="@+id/rcv_picks_tv_time"
             android:layout_width="wrap_content"

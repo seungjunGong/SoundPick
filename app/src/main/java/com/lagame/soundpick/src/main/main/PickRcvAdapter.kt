@@ -1,9 +1,10 @@
-package com.lagame.soundpick.src.main
+package com.lagame.soundpick.src.main.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.lagame.soundpick.databinding.RcvPicksItemBinding
+import com.lagame.soundpick.src.main.PickItemsData
 
 class PickRcvAdapter(private val itemsData: ArrayList<PickItemsData>): RecyclerView.Adapter<PickRcvAdapter.ViewHolder>(){
     // item xml을 받아와 홀더를 만들어준다.
@@ -13,7 +14,7 @@ class PickRcvAdapter(private val itemsData: ArrayList<PickItemsData>): RecyclerV
         return ViewHolder(binding)
     }
     // 바인딩한 데이터를 홀더에 넣어준다.
-    override fun onBindViewHolder(holder:  ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(itemsData[position])
     }
 

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/base_button_style.xml" value="0.3545" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/delete_radio_btn_selecter.xml" value="0.3585" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/pick_switch_off.xml" value="0.325" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/pick_switch_on.xml" value="0.325" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/pick_switch_selector.xml" value="0.325" />
@@ -23,8 +24,9 @@
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_setting_box.xml" value="0.257" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_toggle_background.xml" value="0.285" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/drawable/update_toggle_btn_select.xml" value="0.325" />
-        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/activity_update.xml" value="0.5" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/activity_delete.xml" value="0.22" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/activity_update.xml" value="0.22" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/layout/rcv_picks_item.xml" value="0.6666666666666666" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.325" />
         <entry key="..\:/Users/Owner/myPage/dev/Android/current/SoundPick/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.325" />

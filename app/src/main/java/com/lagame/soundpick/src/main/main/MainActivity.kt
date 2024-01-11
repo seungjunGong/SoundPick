@@ -1,9 +1,8 @@
-package com.lagame.soundpick.src.main
+package com.lagame.soundpick.src.main.main
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.lagame.soundpick.R
 import com.lagame.soundpick.databinding.ActivityMainBinding
+import com.lagame.soundpick.src.main.PickItemsData
 import com.lagame.soundpick.src.main.config.BaseActivity
 
 class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {

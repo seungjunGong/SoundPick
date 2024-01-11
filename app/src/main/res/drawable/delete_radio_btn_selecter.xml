@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_delete_checked_radio" android:state_checked="true" />
+    <item android:drawable="@drawable/ic_delete_unchecked_radio" android:state_checked="false" />
+    <item android:drawable="@drawable/ic_delete_unchecked_radio" />   <!-- 아무 상태도 지정하지 않으면 기본 값 -->
+</selector>
