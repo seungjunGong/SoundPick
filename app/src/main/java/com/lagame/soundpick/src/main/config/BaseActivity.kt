@@ -1,10 +1,11 @@
 package com.lagame.soundpick.src.main.config
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.WindowCompat
 import androidx.viewbinding.ViewBinding
 
 // 액티비티의 기본을 작성, 뷰 바인딩 활용
@@ -18,6 +19,13 @@ abstract class BaseActivity<B : ViewBinding>(private  val inflate: (LayoutInflat
         super.onCreate(savedInstanceState)
         binding = inflate(layoutInflater)
         setContentView(binding.root)
+        
+        // navigation bar 투명화
+        val w = window // in Activity's onCreate() for instance
+        w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
+
+
     }
 
     // 토스트를 쉽게 띄울 수 있게 해줌.
